@@ -224,8 +224,7 @@ $('#emailBtn').on("click", function () {
 $(document).ready(function () {
 
     var segments = [
-        { word: "birthday", image: "birthday1.jpg" },
-        { word: "birthday", image: "birthday2.jpg" }
+        { word: "birthday", image: "birthday1.jpg" }
     ];
 
     _.each(segments, function (segment, i) {
